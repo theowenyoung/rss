@@ -9,7 +9,17 @@ module.exports = {
     {
       resolve: `gatsby-source-rsshub`,
       options: {
-        rsshub: ["/douban/movie/playing", "/36kr/newsflashes"],
+        rsshub: [
+          "/douban/movie/playing",
+          "/douban/movie/playing/8.5",
+          "/douban/movie/weekly",
+          "/douban/group/536786",
+          "/weseepro/newest-direct",
+          "/atfd/cn+shenzhen/1",
+          "/flyertea/preferential",
+          "/smzdm/ranking/haitao/39/3",
+          "/initium/news-brief/zh-hans",
+        ],
         cacheTime: 5 * 60 * 10000,
       },
     },
