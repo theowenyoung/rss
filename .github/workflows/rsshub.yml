@@ -1,0 +1,18 @@
+name: Rsshub build
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "*/15 * * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: enriikke/gatsby-gh-pages-action@v2.1.1
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          gatsby-args: --prefix-paths
+          deploy-branch: gh-pages

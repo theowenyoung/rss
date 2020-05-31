@@ -1,10 +1,25 @@
 module.exports = {
+  pathPrefix: `/gatsby-starter-rsshub`,
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Rsshub static demo`,
+    description: `Make rsshub static`,
+    author: `@theowenyoung`,
+    siteUrl: "https://theowenyoung.github.io",
   },
   plugins: [
+    {
+      resolve: `gatsby-source-rsshub`,
+      options: {
+        rsshub: ["/douban/movie/playing", "/36kr/newsflashes"],
+        cacheTime: 5 * 60 * 10000,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-rsshub`,
+      options: {
+        indexPath: "/",
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
