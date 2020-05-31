@@ -5,10 +5,12 @@
   </a>
 </p>
 <h1 align="center">
-  [Gatsby's rsshub starter](https://rsshub-demo.owenyoung.com/)
+  Gatsby's rsshub starter
 </h1>
 
 Generate static rsshub pages
+
+Live demo: [Gatsby's rsshub](https://rsshub-demo.owenyoung.com/)
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
