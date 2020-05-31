@@ -1,10 +1,9 @@
 module.exports = {
-  pathPrefix: `/gatsby-starter-rsshub`,
   siteMetadata: {
     title: `Rsshub static demo`,
     description: `Make rsshub static`,
     author: `@theowenyoung`,
-    siteUrl: "https://theowenyoung.github.io",
+    siteUrl: "https://rsshub-demo.owenyoung.com",
   },
   plugins: [
     {
