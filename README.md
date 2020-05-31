@@ -34,10 +34,6 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby develop
     ```
 
-1.  **Change CNAME**
-
-    Change or remove root CNAME file
-
 1.  **change gatsby-config -> gatsby-source-rsshub**
 
     Use your rsshub paths
@@ -128,8 +124,8 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/theowenyoung/gatsby-starter-rsshub.git)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/theowenyoung/gatsby-starter-rsshub)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theowenyoung/gatsby-starter-rsshub.git)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/theowenyoung/gatsby-starter-rsshub)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
