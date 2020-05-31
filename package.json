@@ -13,7 +13,7 @@
     "gatsby-plugin-rsshub": "^1.1.3",
     "gatsby-plugin-sharp": "^2.6.4",
     "gatsby-source-filesystem": "^2.3.4",
-    "gatsby-source-rsshub": "^1.2.2",
+    "gatsby-source-rsshub": "^1.3.2",
     "gatsby-transformer-sharp": "^2.5.2",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
