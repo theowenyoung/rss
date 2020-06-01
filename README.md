@@ -34,9 +34,13 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby develop
     ```
 
-1.  **change gatsby-config -> gatsby-source-rsshub**
+1.  **Change gatsby-config -> gatsby-source-rsshub**
 
     Use your rsshub paths
+
+1.  **Change or remove CNAME**
+
+    use custom domain
 
 1.  **Build**
 
