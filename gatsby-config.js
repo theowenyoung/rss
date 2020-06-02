@@ -9,6 +9,9 @@ module.exports = {
     {
       resolve: `gatsby-source-rsshub`,
       options: {
+        query: {
+          // mode: "fulltext",
+        },
         rsshub: [
           "/douban/movie/playing",
           "/douban/movie/playing/8.5",
@@ -20,6 +23,13 @@ module.exports = {
           "/smzdm/ranking/haitao/39/3",
           "/initium/news-brief/zh-hans",
           "/weibo/user/2496970172",
+          {
+            url: "/weibo/user/2496970172",
+            query: {
+              filter: "肯德基|麦当劳",
+            },
+            slug: "/live/sale",
+          },
         ],
         cacheTime: 5 * 60 * 10000,
       },
