@@ -19,6 +19,7 @@ module.exports = {
           "/flyertea/preferential",
           "/smzdm/ranking/haitao/39/3",
           "/initium/news-brief/zh-hans",
+          "/weibo/user/2496970172",
         ],
         cacheTime: 5 * 60 * 10000,
       },
