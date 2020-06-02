@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Rsshub static demo`,
+    title: `Rsshub Static List`,
     description: `Make rsshub static`,
     author: `@theowenyoung`,
-    siteUrl: "https://rsshub-demo.owenyoung.com",
+    siteUrl: "https://rss.owenyoung.com",
   },
   plugins: [
     {
