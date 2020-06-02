@@ -34,6 +34,7 @@ module.exports = {
             url: "/douban/group/536786",
             query: {
               filter: "肯德基|麦当劳|冰淇淋|雪糕",
+              filterout: "求购",
             },
             slug: "/sale/douban-pin-group",
           },
