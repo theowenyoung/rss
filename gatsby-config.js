@@ -26,14 +26,14 @@ module.exports = {
           {
             url: "/weibo/user/2496970172",
             query: {
-              filter: "肯德基|麦当劳",
+              filter: "肯德基|麦当劳|fresh|馥蕾诗",
             },
             slug: "/live/sale",
           },
           {
             url: "/douban/group/536786",
             query: {
-              filter: "肯德基|麦当劳|冰淇淋|雪糕",
+              filter: "肯德基|麦当劳|冰淇淋|雪糕|面包|烤箱",
               filterout: "求购|已购",
             },
             slug: "/sale/douban-pin-group",
