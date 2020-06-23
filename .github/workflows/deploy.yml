@@ -1,0 +1,71 @@
+name: RSS build
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "*/15 * * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get gatsby cache key from last build
+        id: get-gatsby-latest-cache-key-file
+        uses: actions/checkout@v2
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: .bloga-last-build
+      - name: Get gatsby-latest-cache-key content
+        if: ${{ steps.get-gatsby-latest-cache-key-file.outcome == 'success' }}
+        id: gatsby-latest-cache-key
+        run: echo "::set-output name=key::$(cat .bloga-last-build/_gatsby-latest-cache-key.txt)"
+      - name: Get yarn cache directory
+        id: yarn-cache-dir
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: Gatsby cache directory restore
+        uses: actions/cache@v2
+        if: ${{ steps.gatsby-latest-cache-key.outcome == 'success' }}
+        with:
+          key: ${{ runner.os }}-${{ steps.gatsby-latest-cache-key.outputs.key }}
+          path: |
+            .cache
+            public
+      - name: Yarn cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache-dir.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: Yarn install
+        run: "yarn --pure-lockfile"
+      - name: Build app
+        run: yarn build
+      - name: Get gatsby latest cache folder hash
+        id: gatsby-latest-cache-hash
+        uses: theowenyoung/folder-hash@v2.0.1
+        with:
+          path: |
+            .cache
+            public
+      - name: Transfer workflows
+        run: cp -rf ./.github ./public
+      - name: Save gatsby cache directory
+        uses: actions/cache@v2
+        with:
+          key: ${{ runner.os }}-gatsby-cache-directory-${{ steps.gatsby-latest-cache-hash.outputs.hash}}
+          path: |
+            .cache
+            public
+      - name: Save cache key to file
+        run: echo gatsby-cache-directory-${{ steps.gatsby-latest-cache-hash.outputs.hash}} > public/_gatsby-latest-cache-key.txt
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          cname: rss.owenyoung.com
