@@ -33,8 +33,8 @@ module.exports = {
           {
             url: "/douban/group/536786",
             query: {
-              filter_title: "肯德基|麦当劳|冰淇淋|雪糕|面包|烤箱|纸",
-              filterout_title: "求购|已购",
+              filter_title: "肯德基|麦当劳|冰淇淋|雪糕|面包|烤箱|selsun",
+              filterout_title: "求购|已购|交流",
             },
             slug: "/sale/douban-pin-group",
           },
