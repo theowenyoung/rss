@@ -38,6 +38,14 @@ module.exports = {
             },
             slug: "/sale/douban-pin-group",
           },
+          {
+            url: "/douban/group/669481",
+            query: {
+              filter_title: "肯德基|麦当劳|冰淇淋|雪糕|面包|烤箱|selsun",
+              filterout_title: "求购|已购|交流",
+            },
+            slug: "/sale/douban-driver-group",
+          },
         ],
         cacheTime: 5 * 60 * 10000,
       },
