@@ -33,7 +33,8 @@ module.exports = {
           {
             url: "/douban/group/536786",
             query: {
-              filter_title: "肯德基|麦当劳|冰淇淋|雪糕|面包|烤箱|selsun",
+              filter_title:
+                "肯德基|麦当劳|冰淇淋|雪糕|面包|烤箱|selsun|免费|0元",
               filterout_title: "求购|已购|交流",
             },
             slug: "/sale/douban-pin-group",
@@ -41,7 +42,8 @@ module.exports = {
           {
             url: "/douban/group/669481",
             query: {
-              filter_title: "肯德基|麦当劳|冰淇淋|雪糕|面包|烤箱|selsun",
+              filter_title:
+                "肯德基|麦当劳|冰淇淋|雪糕|面包|烤箱|selsun|免费|0元",
               filterout_title: "求购|已购|交流",
             },
             slug: "/sale/douban-driver-group",
