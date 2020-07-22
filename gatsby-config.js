@@ -1,3 +1,7 @@
+const keywords =
+  "肯德基|麦当劳|冰淇淋|雪糕|烤箱|科颜氏白泥|免费|0元|u先|U先|fresh"
+const filterKeywords = "求购|已购|交流"
+
 module.exports = {
   siteMetadata: {
     title: `Rsshub Static List`,
@@ -33,18 +37,16 @@ module.exports = {
           {
             url: "/douban/group/536786",
             query: {
-              filter_title:
-                "肯德基|麦当劳|冰淇淋|雪糕|面包|烤箱|selsun|免费|0元",
-              filterout_title: "求购|已购|交流",
+              filter_title: keywords,
+              filterout_title: filterKeywords,
             },
             slug: "/sale/douban-pin-group",
           },
           {
             url: "/douban/group/669481",
             query: {
-              filter_title:
-                "肯德基|麦当劳|冰淇淋|雪糕|面包|烤箱|selsun|免费|0元",
-              filterout_title: "求购|已购|交流",
+              filter_title: keywords,
+              filterout_title: filterKeywords,
             },
             slug: "/sale/douban-driver-group",
           },
