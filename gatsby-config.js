@@ -25,7 +25,6 @@ module.exports = {
           "/douban/movie/playing",
           "/douban/movie/playing/8.5",
           "/douban/movie/weekly",
-          "/douban/group/536786",
           "/weseepro/newest-direct",
           "/atfd/cn+shenzhen/1",
           "/flyertea/preferential",
@@ -40,7 +39,7 @@ module.exports = {
             slug: "/live/sale",
           },
           {
-            url: "/douban/group/536786",
+            url: "/douban/group/698716",
             query: pinGroupQuery,
             slug: "/sale/douban-pin-group",
           },
@@ -69,7 +68,11 @@ module.exports = {
                   }
                 }
               }
-              if (item.title) {
+              if (
+                item.title &&
+                (data.link === "https://www.douban.com/group/669481/" ||
+                  data.link === "https://www.douban.com/group/698716/")
+              ) {
                 item.title = item.title.replace(/\[来自.+\]/g, "")
               }
               return item
