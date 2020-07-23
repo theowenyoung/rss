@@ -4456,7 +4456,7 @@ date-fns@^2.13.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.14.0.tgz#359a87a265bb34ef2e38f93ecf63ac453f9bc7ba"
   integrity sha512-1zD+68jhFgDIM0rF05rcwYO8cExdNqxjq4xP1QKM60Q45mnO6zaMWB4tOzrIr4M4GSLntsKeE4c9Bdl2jhL/yw==
 
-dayjs@1.8.30, dayjs@^1.8.29:
+dayjs@1.8.30, dayjs@^1.8.29, dayjs@^1.8.30:
   version "1.8.30"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.30.tgz#d3b314d3ccdc179015d915fd3c6e14422c026378"
   integrity sha512-5s5IGuP5bVvIbOWkEDcfmXsUj24fZW1NMHVVSdSFF/kW8d+alZcI9SpBKC+baEyBe+z3fUp17y75ulstv5swUw==
@@ -6503,12 +6503,13 @@ gatsby-plugin-react-helmet@^3.3.1:
   dependencies:
     "@babel/runtime" "^7.9.6"
 
-gatsby-plugin-rsshub@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-rsshub/-/gatsby-plugin-rsshub-1.1.4.tgz#ed4fced95911fa9ee0010c3d28db5472d28ff1f2"
-  integrity sha512-5teCm6XirlgBgHZgX0smMQrngxN+mgeZehCACsCvTb6EAJhMOCsV/GgKIcGKNyCJ2p3d7ejFfeG4hKlcnRjlbg==
+gatsby-plugin-rsshub@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-rsshub/-/gatsby-plugin-rsshub-1.2.4.tgz#f975b9e832d6021c502663d3ae8ddb9615522b76"
+  integrity sha512-Q6rsaNYTzf9gnZvgsdUyKoNiUNmnTJ7NqhDTaIZabPqAEgT/O8sLwjXyJ/tGfSKYWxRwHR7pbpH24YEPQEzUrA==
   dependencies:
     art-template "^4.13.2"
+    dayjs "^1.8.30"
     fs-extra "^9.0.0"
 
 gatsby-plugin-sharp@^2.6.4:
