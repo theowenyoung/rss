@@ -64,10 +64,13 @@ module.exports = {
                 item.description = item.description.replace(/<[^>]*>/g, "")
                 if (item.description) {
                   item.description = item.description.trim()
-                  if (item.description.length > 80) {
-                    item.description = `${item.description.substring(0, 80)}...`
+                  if (item.description.length > 25) {
+                    item.description = `${item.description.substring(0, 25)}...`
                   }
                 }
+              }
+              if (item.title) {
+                item.title = item.title.replace(/\[来自.+\]/g, "")
               }
               return item
             })
