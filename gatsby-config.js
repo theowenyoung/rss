@@ -38,6 +38,7 @@ module.exports = {
             },
             slug: "/live/sale",
           },
+          "/douban/group/698716",
           {
             url: "/douban/group/698716",
             query: pinGroupQuery,
