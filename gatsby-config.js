@@ -65,7 +65,7 @@ module.exports = {
                 if (item.description) {
                   item.description = item.description.trim()
                   if (item.description.length > 80) {
-                    item.description = item.description.substring(0, 80)
+                    item.description = `${item.description.substring(0, 80)}...`
                   }
                 }
               }
