@@ -2,6 +2,11 @@ const keywords =
   "肯德基|冰淇淋|雪糕|烤箱|科颜氏白泥|免费领|0元|u先|U先|深水泡弹|三分钟|清洁面膜"
 const filterKeywords = "求购|已购|交流"
 
+const pinGroupQuery = {
+  filter_title: keywords,
+  filterout_title: filterKeywords,
+  filter_case_sensitive: false,
+}
 module.exports = {
   siteMetadata: {
     title: `Rsshub Static List`,
@@ -36,18 +41,12 @@ module.exports = {
           },
           {
             url: "/douban/group/536786",
-            query: {
-              filter_title: keywords,
-              filterout_title: filterKeywords,
-            },
+            query: pinGroupQuery,
             slug: "/sale/douban-pin-group",
           },
           {
             url: "/douban/group/669481",
-            query: {
-              filter_title: keywords,
-              filterout_title: filterKeywords,
-            },
+            query: pinGroupQuery,
             slug: "/sale/douban-driver-group",
           },
         ],
@@ -58,6 +57,23 @@ module.exports = {
       resolve: `gatsby-plugin-rsshub`,
       options: {
         indexPath: "/",
+        templateDataSerialize(data) {
+          if (data && data.item && Array.isArray(data.item)) {
+            data.item = data.item.map(item => {
+              if (item.description) {
+                item.description = item.description.replace(/<[^>]*>/g, "")
+                if (item.description) {
+                  item.description = item.description.trim()
+                  if (item.description.length > 80) {
+                    item.description = item.description.substring(0, 80)
+                  }
+                }
+              }
+              return item
+            })
+          }
+          return data
+        },
       },
     },
     `gatsby-plugin-react-helmet`,
