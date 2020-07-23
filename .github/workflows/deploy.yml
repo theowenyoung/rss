@@ -74,7 +74,7 @@ jobs:
         with:
           external_repository: theowenyoung/rss-mirror
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          publish_dir: ./
+          publish_dir: ./public
           publish_branch: master
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
