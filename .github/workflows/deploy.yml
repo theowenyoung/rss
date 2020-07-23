@@ -61,7 +61,7 @@ jobs:
       - name: Save cache key to file
         run: echo gatsby-cache-directory-${{ steps.gatsby-latest-cache-hash.outputs.hash}} > public/_gatsby-latest-cache-key.txt
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3.6.4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
@@ -69,3 +69,10 @@ jobs:
           cname: rss.owenyoung.com
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
+      - name: Deploy to surge.sh
+        uses: dswistowski/surge-sh-action@v1
+        with:
+          domain: "rss-for-owen.surge.sh"
+          project: "./public"
+          login: ${{ secrets.surge_login }}
+          token: ${{ secrets.surge_token }}
