@@ -69,12 +69,10 @@ jobs:
           cname: rss.owenyoung.com
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-      - name: Deploy To Mirror
-        uses: peaceiris/actions-gh-pages@v3.6.4
+      - name: Deploy to surge.sh
+        uses: dswistowski/surge-sh-action@v1
         with:
-          external_repository: theowenyoung/rss-mirror
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          publish_dir: ./public
-          publish_branch: master
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
+          domain: "rss-for-owen.surge.sh"
+          project: "./public"
+          login: ${{ secrets.surge_login }}
+          token: ${{ secrets.surge_token }}
