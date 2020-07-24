@@ -50,7 +50,7 @@ module.exports = {
             slug: "/sale/douban-driver-group",
           },
         ],
-        cacheTime: 5 * 60 * 10000,
+        cacheTime: 1 * 60 * 1000,
       },
     },
     {
