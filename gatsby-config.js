@@ -1,6 +1,7 @@
 const keywords =
   "罐头|狗粮|爱肯拿|zeal|体外驱|们快|反薅|牛奶|试用|又有|话费|免费领|0元买|0元入|肯德基|麦当劳|冰淇淋|雪糕|烤箱|生鲜|白泥|u先|深水泡弹|三分钟|清洁面膜|医美面膜|面膜|敷尔佳|螺蛳粉"
-const filterKeywords = "求|转|求购|交流|已购|专楼|蒙牛|伊利|领养|猫|喵|团购"
+const filterKeywords =
+  "求|转|求购|交流|已购|专楼|蒙牛|伊利|领养|猫|喵|团购|讨论"
 
 const pinGroupQuery = {
   filter_title: keywords,
