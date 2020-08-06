@@ -1,6 +1,7 @@
 const keywords =
-  "罐头|狗粮|爱肯拿|zeal|体外驱|们快|反薅|牛奶|试用|话费|免费领|0元买|0元入|肯德基|麦当劳|冰淇淋|烤箱|生鲜|白泥|u先|深水泡弹|三分钟|清洁面膜|医美面膜|敷尔佳|螺蛳粉|米诺"
-const filterKeywords = "求|转|求购|交流|已购|专楼|蒙牛|伊利|闲置|出|讨论|华为"
+  "罐头|狗粮|爱肯拿|zeal|驱虫|姐妹们快|反薅|牛奶|试用|话费|免费|0元买|0元入|肯德基|麦当劳|冰淇淋|烤箱|生鲜|白泥|u先|深水泡弹|三分钟|清洁面膜|医美面膜|敷尔佳|螺蛳粉|米诺|抽奖|芙清|人工泪液"
+const filterKeywords =
+  "求|转|求购|交流|已购|专楼|蒙牛|伊利|闲置|出|讨论|华为|开车|停车"
 
 const pinGroupQuery = {
   filter_title: keywords,
@@ -8,8 +9,7 @@ const pinGroupQuery = {
   filter_case_sensitive: false,
 }
 const dogGroupQuery = {
-  filter_title:
-    "爱肯拿|狗粮|体外驱|滴剂|优惠|抽奖|奶|罐头|k9|巅峰罐头|福来恩|zeal",
+  filter_title: "爱肯拿|狗粮|驱|滴剂|优惠|抽奖|奶|罐头|k9|巅峰|福来恩|zeal",
   filterout_title: filterKeywords,
   filter_case_sensitive: false,
 }
