@@ -45,6 +45,7 @@ module.exports = {
             slug: "/live/sale",
           },
           "/douban/group/698716",
+          "/douban/group/blabla",
           {
             url: "/douban/group/698716",
             query: pinGroupQuery,
