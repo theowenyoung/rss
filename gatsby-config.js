@@ -46,6 +46,8 @@ module.exports = {
           },
           "/douban/group/698716",
           "/douban/group/blabla",
+          "/douban/group/669481",
+          "/douban/group/586674",
           {
             url: "/douban/group/698716",
             query: pinGroupQuery,
