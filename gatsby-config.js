@@ -1,7 +1,7 @@
-const keywords =
-  "罐头|狗粮|爱肯拿|zeal|驱虫|姐妹们快|牛奶|试用|免费|0元买|0元入|肯德基|冰淇淋|烤箱|生鲜|白泥|u先|深水泡弹|三分钟|清洁面膜|医美面膜|敷尔佳|螺蛳粉|米诺|抽奖|芙清|果酸|杏仁酸|hhkb|鸡蛋|大米"
+const keywords = "作业|狗粮|罐头"
+// "罐头|狗粮|爱肯拿|zeal|驱虫|姐妹们快|牛奶|肯德基|冰淇淋|烤箱|生鲜|白泥|深水泡弹|三分钟|清洁面膜|医美面膜|敷尔佳|螺蛳粉|米诺|芙清|果酸|杏仁酸|hhkb|鸡蛋"
 const filterKeywords =
-  "求|转|求购|交流|已购|专楼|蒙牛|伊利|闲置|出|讨论|华为|开车|停车|代拍|完|分装|意向|拼单"
+  "求|转|求购|交流|已购|专楼|蒙牛|伊利|闲置|出|讨论|华为|开车|停车|代拍|完|分装|意向|拼单|避雷"
 
 const pinGroupQuery = {
   filter_title: keywords,
@@ -9,7 +9,7 @@ const pinGroupQuery = {
   filter_case_sensitive: false,
 }
 const dogGroupQuery = {
-  filter_title: "爱肯拿|狗粮|驱|滴剂|优惠|抽奖|奶|罐头|k9|巅峰|福来恩|zeal",
+  filter_title: "爱肯拿|开车|狗粮|驱|滴剂|优惠|抽奖|奶|罐头|k9|巅峰|犬心保",
   filterout_title: filterKeywords,
   filter_case_sensitive: false,
 }
@@ -64,7 +64,7 @@ module.exports = {
           //   slug: "/sale/douban-cat-group",
           // },
           {
-            url: "/douban/group/657658",
+            url: "/douban/group/716166",
             query: dogGroupQuery,
             slug: "/sale/douban-dog-group",
           },
