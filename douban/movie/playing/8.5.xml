@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[正在上映的超过 8.5 分的电影]]></title>
+        <link>https://movie.douban.com/cinema/nowplaying/</link>
+        <atom:link href="https://rss.owenyoung.com/douban/movie/playing/8.5.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[正在上映的超过 8.5 分的电影 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Fri, 26 Mar 2021 15:25:55 GMT</lastBuildDate>
+        <ttl>1</ttl>
+        
+        <item>
+            <title><![CDATA[阿凡达]]></title>
+            <description><![CDATA[标题：阿凡达评分：8.8片长：162分钟制片国家/...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/1652587</guid>
+            <link>https://movie.douban.com/subject/1652587</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

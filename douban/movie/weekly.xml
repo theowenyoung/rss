@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[豆瓣一周口碑电影榜]]></title>
+        <link>https://movie.douban.com/chart</link>
+        <atom:link href="https://rss.owenyoung.com/douban/movie/weekly.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[每周五更新 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Fri, 26 Mar 2021 15:25:56 GMT</lastBuildDate>
+        <ttl>1</ttl>
+        
+        <item>
+            <title><![CDATA[扎克·施奈德版正义联盟]]></title>
+            <description><![CDATA[标题：扎克·施奈德版正义联盟  影片信息：美国 /...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/35076714/</guid>
+            <link>https://movie.douban.com/subject/35076714/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[浅田家！]]></title>
+            <description><![CDATA[标题：浅田家！  影片信息：日本 / 剧情 家庭 ...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/26958479/</guid>
+            <link>https://movie.douban.com/subject/26958479/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[困在时间里的父亲]]></title>
+            <description><![CDATA[标题：困在时间里的父亲  影片信息：英国 法国 /...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/33432655/</guid>
+            <link>https://movie.douban.com/subject/33432655/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[波士顿市政厅]]></title>
+            <description><![CDATA[标题：波士顿市政厅  影片信息：美国 / 纪录片 ...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/35027717/</guid>
+            <link>https://movie.douban.com/subject/35027717/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[又见奈良]]></title>
+            <description><![CDATA[标题：又见奈良  影片信息：中国大陆 日本 / 剧...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/30437716/</guid>
+            <link>https://movie.douban.com/subject/30437716/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[艾达，怎么了？]]></title>
+            <description><![CDATA[标题：艾达，怎么了？  影片信息：波黑 奥地利 罗...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/34951210/</guid>
+            <link>https://movie.douban.com/subject/34951210/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[何塞]]></title>
+            <description><![CDATA[标题：何塞  影片信息：法国 西班牙 比利时 / ...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/35088888/</guid>
+            <link>https://movie.douban.com/subject/35088888/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[间谍之妻]]></title>
+            <description><![CDATA[标题：间谍之妻  影片信息：日本 / 剧情 历史 ...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/34852385/</guid>
+            <link>https://movie.douban.com/subject/34852385/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[里夫金的电影节]]></title>
+            <description><![CDATA[标题：里夫金的电影节  影片信息：西班牙 美国 意...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/30353869/</guid>
+            <link>https://movie.douban.com/subject/30353869/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[沿路而下]]></title>
+            <description><![CDATA[标题：沿路而下  影片信息：西班牙 / 动作 犯罪...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/30456637/</guid>
+            <link>https://movie.douban.com/subject/30456637/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

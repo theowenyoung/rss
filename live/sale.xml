@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[我的直播预告的微博]]></title>
+        <link>http://weibo.com/2496970172/</link>
+        <atom:link href="https://rss.owenyoung.com/live/sale.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[非官方课代表🔥每日分享预告 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <image>
+            <url>https://tvax4.sinaimg.cn/crop.0.0.640.640.180/94d4bdbcly8gcmnq19ipbj20hs0hsafo.jpg?KID=imgbed,tva&#38;Expires=1616783173&#38;ssig=GIrdWzzQjh</url>
+            <title><![CDATA[我的直播预告的微博]]></title>
+            <link>http://weibo.com/2496970172/</link>
+        </image>
+        
+        <lastBuildDate>Fri, 26 Mar 2021 15:26:16 GMT</lastBuildDate>
+        <ttl>1</ttl>
+        
+    </channel>
+</rss>
