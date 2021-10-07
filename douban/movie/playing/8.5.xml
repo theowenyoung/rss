@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[正在上映的超过 8.5 分的电影]]></title>
+        <link>https://movie.douban.com/cinema/nowplaying/</link>
+        <atom:link href="https://rss.owenyoung.com/douban/movie/playing/8.5.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[正在上映的超过 8.5 分的电影 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Thu, 07 Oct 2021 12:30:51 GMT</lastBuildDate>
+        <ttl>1</ttl>
+        
+        <item>
+            <title><![CDATA[1950他们正年轻]]></title>
+            <description><![CDATA[标题：1950他们正年轻评分：8.9片长：98分钟...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/35470753</guid>
+            <link>https://movie.douban.com/subject/35470753</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[大决战之辽沈战役]]></title>
+            <description><![CDATA[标题：大决战之辽沈战役评分：8.8片长：222分钟...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/1424552</guid>
+            <link>https://movie.douban.com/subject/1424552</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

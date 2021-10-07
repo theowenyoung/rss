@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[一周口碑电影榜]]></title>
+        <link>https://m.douban.com/subject_collection/movie_weekly_best</link>
+        <atom:link href="https://rss.owenyoung.com/douban/movie/weekly.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[每周五更新；关注榜单，第一时间了解最新口碑佳片。 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Thu, 07 Oct 2021 12:30:53 GMT</lastBuildDate>
+        <ttl>1</ttl>
+        
+        <item>
+            <title><![CDATA[驾驶我的车]]></title>
+            <description><![CDATA[标题：驾驶我的车  影片信息：日本 / 剧情 / ...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/35235502/</guid>
+            <link>https://movie.douban.com/subject/35235502/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[父女之战：解放布兰妮]]></title>
+            <description><![CDATA[标题：父女之战：解放布兰妮  影片信息：美国 / ...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/35604173/</guid>
+            <link>https://movie.douban.com/subject/35604173/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[小妈妈]]></title>
+            <description><![CDATA[标题：小妈妈  影片信息：法国 / 剧情 奇幻 /...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/35225859/</guid>
+            <link>https://movie.douban.com/subject/35225859/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[援助]]></title>
+            <description><![CDATA[标题：援助  影片信息：英国 / 剧情 / 马克·...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/35259282/</guid>
+            <link>https://movie.douban.com/subject/35259282/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[舒马赫]]></title>
+            <description><![CDATA[标题：舒马赫  影片信息：德国 / 纪录片 / H...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/33443523/</guid>
+            <link>https://movie.douban.com/subject/33443523/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[默默无闻]]></title>
+            <description><![CDATA[标题：默默无闻  影片信息：英国 意大利 罗马尼亚...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/34990826/</guid>
+            <link>https://movie.douban.com/subject/34990826/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[值得]]></title>
+            <description><![CDATA[标题：值得  影片信息：美国 / 剧情 传记 历史...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/30456631/</guid>
+            <link>https://movie.douban.com/subject/30456631/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[犬之力]]></title>
+            <description><![CDATA[标题：犬之力  影片信息：英国 澳大利亚 美国 加...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/33437152/</guid>
+            <link>https://movie.douban.com/subject/33437152/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[蓝色]]></title>
+            <description><![CDATA[标题：蓝色  影片信息：日本 / 剧情 动作 / ...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/35280913/</guid>
+            <link>https://movie.douban.com/subject/35280913/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[疯女人的舞会]]></title>
+            <description><![CDATA[标题：疯女人的舞会  影片信息：法国 / 惊悚 /...]]></description>
+            
+            <guid isPermaLink="false">https://movie.douban.com/subject/34943349/</guid>
+            <link>https://movie.douban.com/subject/34943349/</link>
+            
+            
+            
+            
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

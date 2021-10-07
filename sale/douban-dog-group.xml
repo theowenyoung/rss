@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[豆瓣小组-豆瓣狗组]]></title>
+        <link>https://www.douban.com/group/716166/</link>
+        <atom:link href="https://rss.owenyoung.com/sale/douban-dog-group.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[豆瓣小组-豆瓣狗组 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Thu, 07 Oct 2021 12:33:28 GMT</lastBuildDate>
+        <ttl>1</ttl>
+        
+        <item>
+            <title><![CDATA[【开车】刚需可入爱肯拿鸡三标11.4kg非临期530]]></title>
+            <description><![CDATA[吃了诚实一口的狗粮 软便几天了客服一直让我观察一下...]]></description>
+            <pubDate>Sat, 06 Mar 2021 23:03:41 GMT</pubDate>
+            <guid isPermaLink="false">https://www.douban.com/group/topic/249105277/</guid>
+            <link>https://www.douban.com/group/topic/249105277/</link>
+            
+            
+            
+            <author><![CDATA[今天上车了吗]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[【开车】拜宠清驱虫一盒48.2]]></title>
+            <description><![CDATA[吃了诚实一口的狗粮 软便几天了客服一直让我观察一下...]]></description>
+            <pubDate>Sat, 06 Mar 2021 23:03:41 GMT</pubDate>
+            <guid isPermaLink="false">https://www.douban.com/group/topic/248977126/</guid>
+            <link>https://www.douban.com/group/topic/248977126/</link>
+            
+            
+            
+            <author><![CDATA[Yissa]]></author>
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

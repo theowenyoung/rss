@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+>
+    <channel>
+        <title><![CDATA[豆瓣小组-买组 & All buy & 不买不可能]]></title>
+        <link>https://www.douban.com/group/698716/</link>
+        <atom:link href="https://rss.owenyoung.com/sale/douban-pin-group.xml" rel="self" type="application/rss+xml" />
+        <description><![CDATA[豆瓣小组-买组 & All buy & 不买不可能 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Thu, 07 Oct 2021 12:32:51 GMT</lastBuildDate>
+        <ttl>1</ttl>
+        
+    </channel>
+</rss>
